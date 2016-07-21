@@ -4,7 +4,7 @@ rwebhdfs
 R Package for WebHDFS REST API
 
 ## Overview
-In this package, most code is same with original rwebhdfs package. But I modify the "http" adress to "https" address and change token to delagation token for user to be easier to use.
+In this package, most code is same with original rwebhdfs package. But I modify the "http" address to "https" address and change token to delagation token for user to be easier to use.
 
 Additional function added: read_all() to allow users to load whole directory files into variable
 
