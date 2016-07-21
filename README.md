@@ -29,7 +29,7 @@ I'm recommend HDP 2.0 for quick demo and testing: http://hortonworks.com/hdp/dow
 #### Create your webhdfs object(token should be a long string of your delegation token)
 WebHDFS is a S3 object and can be created using 
 ```R 
-hdfs <- webhdfs("localhost", 50070, "hue",token="")
+hdfs <- webhdfs("localhost", 50070, "hue",token="your delegation token")
 ```
 
 #### List the files under you home directory
